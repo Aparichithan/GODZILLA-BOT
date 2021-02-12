@@ -51,7 +51,7 @@ Hello! my name 🗡️*{}*🗡️.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/be69f9497e7a905d917bb.jpg"
+TECHNO_IMG = "https://telegra.ph/file/8e4974385421786c707ae.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -144,11 +144,11 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🔮HELP🔮",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🛡️My Creator🛡️",
-                                                                       url="t.me/godzilla_bot_support")],
-                                                                                   [InlineKeyboardButton(text="⚡ADD GODZILLA BOT TO YOUR GROUP⚡",
+                                                                       url="t.me/stranger_of_trlegram")],
+                                                                                   [InlineKeyboardButton(text="⚡ADD ELSA BOT TO YOUR GROUP⚡",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🔖Source Code🔖",
-                                                                       url="https://github.com/sum897/GRANDROBOT")
+                                                                       url="")
                                                                                  ]]))
 
     else:
